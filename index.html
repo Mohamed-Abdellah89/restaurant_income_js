@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>restaurant calculator</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="title">
+                <p>RESTAURANT INCOME <br> CALCULATOR</p>
+
+            </div>
+
+            <div class="form">
+                <div class="table">
+                    <label for="table">Table</label>
+                    <input type="text" id="table">
+                </div>
+
+                <div class="order">
+                    <label for="order">order</label>
+                    <input type="number" id="order">
+                </div>
+                <div class="btn">
+                    <button onclick="calc()">calculate</button>
+                </div>
+
+            </div>
+
+            <div class="statics">
+                <div class="totalCircle">
+                    <p>total</p>
+                    <p id="total_circle">0</p>
+                </div>
+                <div class="vatCircle">
+                    <p>vat</p>
+                    <p id="vat_circle">0</p>
+                </div>
+                <div class="sevicesCircle">
+                    <p>services</p>
+                    <p id="service_circle">0</p>
+                </div>
+            </div>
+
+            <div class="totalday">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>table</th>
+                            <th>order</th>
+                            <th>vat</th>
+                            <th>service</th>
+                            <th>total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+        
+        
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
